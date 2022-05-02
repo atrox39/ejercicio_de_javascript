@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./ejercicio1.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="form">
+    <form id="datos">
+      <h3>Agregar alumno</h3>
+      <div>
+        <label for="nombre">Nombre</label>
+        <input placeholder="Juan" id="nombre" type="text" name="nombre" required>
+      </div>
+      <div>
+        <label for="apellido">Apellido</label>
+        <input placeholder="Escutia" id="apellido" type="text" name="apellido" required>
+      </div>
+      <div>
+        <label for="fecha_nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+      </div>
+      <div>
+        <label for="correo">Correo</label>
+        <input placeholder="correo@correo.com" type="email" name="correo" id="correo" required>
+      </div>
+      <div>
+        <input type="submit" value="Agregar">
+      </div>
+    </form>
+  </div>
+  <div>
+    <table id="tabla">
+      <thead>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Fecha de nacimiento</th>
+        <th>Correo</th>
+      </thead>
+      <tbody id="t_body">
+      </tbody>
+    </table>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>

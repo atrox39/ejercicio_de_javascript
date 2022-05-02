@@ -1,0 +1,52 @@
+*
+{
+  box-sizing: border-box;
+  font-family: 'Century Ghotic', sans-serif;
+}
+
+.form
+{
+  max-width: 420px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.form h3
+{
+  text-align: center;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 6px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+input[type=submit]
+{
+  background-color: rgb(34, 133, 92);
+  color: #fff;
+  cursor: pointer;
+}
+
+#tabla
+{
+  width: 100%;
+  margin-top: 16px;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+#tabla th, td
+{
+  border: 1px solid #333;
+}
+
+#tabla td
+{
+  text-align: right;
+}
