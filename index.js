@@ -52,3 +52,5 @@ datos.addEventListener('submit', function (event) {
 });
 
 actualizarTabla();
+let test = 10;
+console.log(test);
